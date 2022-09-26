@@ -1,0 +1,4 @@
+
+Notes
+Attributes: Being in the little <> seems to give atributes to this item. 
+Content: Being in between the begining and end thingys (<nav>something<nav>) seems to be the pieces of the thing.
