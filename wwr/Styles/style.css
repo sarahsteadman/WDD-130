@@ -26,19 +26,19 @@ header {
     background-color: #98D6DC; 
 }
 nav a:hover {
-    background-color: #fcfbfb; 
+    background-color: #F5E559; 
 }
 .book, .join {
-    background-color: #fcfbfb; 
+    background-color: #98D6DC; 
 }
 .book:hover, .join:hover {
-    background-color: #fcfbfb; 
+    background-color: #F5E559; 
 }
 #background {
     background-color: #fcfbfb; 
 }
 .msg {
-    background-color: #fcfbfb; 
+    background-color: #F5E559; 
 }
 footer {
     background-color: #98D6DC;
