@@ -6,6 +6,7 @@ div {
 }
 nav a {
     margin: 0 auto;
+    color: #072158;
 }
 #hero-msg h1, #hero-msg h4{
     margin: 0 auto;
@@ -26,7 +27,8 @@ header {
     background-color: #072158; 
 }
 nav a:hover {
-    background-color: #F5E559; 
+    background-color: #F5E559;
+    color:#072158; 
 }
 .book, .join {
     background-color: #98D6DC; 
@@ -42,4 +44,10 @@ nav a:hover {
 }
 footer {
     background-color: #98D6DC;
+}
+.home-title{
+    color:#072158;
+}
+h4{
+    color:#072158
 }
