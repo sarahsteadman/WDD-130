@@ -1,0 +1,21 @@
+div {
+    max-width: 1600px;   
+}
+#content{
+    margin: 0 auto;
+}
+nav a {
+    margin: 0 auto;
+}
+#hero-msg h1, #hero-msg h4{
+    margin: 0 auto;
+}
+.button-box{
+    margin: 0 auto;
+}
+main section{
+    margin: 0 auto;
+}
+#background {
+    height: 725px;
+}
