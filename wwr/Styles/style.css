@@ -6,17 +6,17 @@ div {
 }
 nav a {
     text-align: center;
-    color: #fcfbfb;
+    color: #ffffff;
     text-decoration: none;
 }  
 #hero-msg h1, #hero-msg h4 {
-    margin:0 auto;
+    text-align: center;
 }
 .button-box {
-    margin:0 auto;
+    text-align: center;
 }
 main section {
-    margin:0 auto;
+    text-align: center;
 }
 #background {
     height: 725px;
@@ -37,7 +37,7 @@ nav a:hover {
     text-decoration: none;
 }
 .book:hover, .join:hover {
-    background-color: #F5E559; 
+    background-color: #ffffff; 
     color: #072158;
 }
 #background {
@@ -69,14 +69,13 @@ footer a {
     text-decoration: none;
 }
 footer a:hover {
-    background-color: #98D6DC;
+    background-color: #ffffff;
 }
 .logo {
     width: 80px;
 }
 .icon {
     width: 80px;
-    margin:0 auto;
 }
 #hero-img {
     width: 100%;
