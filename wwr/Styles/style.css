@@ -3,6 +3,7 @@ div {
 }
 #content {
     margin:0 auto;
+    max-width: 80px;
 }
 nav a {
     text-align: center;
@@ -11,6 +12,7 @@ nav a {
     text-decoration: none;
 }  
 #hero-msg h1, #hero-msg h4 {
+    font-family: "Book Antiqua", "Lucida  Console", "Palatino";
     text-align: center;
 }
 .button-box {
@@ -23,6 +25,7 @@ main section {
     height: 725px;
 }
 body {
+    font-family: Georgia, Helvetica, sans-serif;
     background-color: #ffffff; 
 }
 header {
@@ -45,12 +48,14 @@ nav a:hover {
     background-color: #98D6DC; 
 }
 .msg {
+    font-family: "Book Antiqua", "Lucida  Console", "Palatino";
     background-color: #F5E559; 
 }
 footer {
     background-color: #98D6DC;
 }
 .home-title {
+    font-family: "Book Antiqua", "Lucida  Console", "Palatino";
     color:#072158;
 }
 h4 {
