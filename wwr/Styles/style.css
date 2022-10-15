@@ -2,8 +2,7 @@ div {
     max-width: 1600px;   
 }
 #content {
-    margin:0 auto;
-    max-width: 80px;
+    margin: 0 auto;
 }
 nav a {
     text-align: center;
