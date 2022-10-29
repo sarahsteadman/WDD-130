@@ -177,11 +177,11 @@ nav {
     grid-row: 2/3;
     grid-column: 2/4;
 }
-.rivers-card{
+.camping-card{
     grid-row: 2/3;
     grid-column: 5/7;
 }
-.rivers-card{
+.rapids-card{
     grid-row: 2/3;
     grid-column: 8/10;
 }
