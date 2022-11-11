@@ -194,36 +194,44 @@ nav {
 }
 .grand-canyon, .desolation, .salmon-river{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(20, 1fr);
 
 
 }
 .msg-activities {
     line-height: 1.5em;
     background-color: #F5E559;
-    padding: 35px; 
-    grid-column: 7/12;
+    padding: 15px; 
+    grid-column: 12/20;
     grid-row: 4/7;
+
+}
+.activity-paragraph{
     font-size: .85em;
+    text-align: left;
+    text-indent: 30px;
 }
 .activity-img{
     padding: 35px; 
-    grid-column: 1/5;
+    grid-column: 2/8;
     grid-row: 3/8;
     z-index: 1;
-    max-width: 5fr;
+    max-width: 550px;
+    max-height: 480px;
+    background-color: #ffffff;
 }
 
 .activity-title {
     font-family: "Book Antiqua", "Lucida  Console", "Palatino";
     font-size: 2em;
-    grid-column: 5/9;
+    grid-column: 8/14;
     grid-row: 1/2;
     margin-top: 70px;
+    color: #072158;
 }
 #background-a {
-    height: 725px;
-    grid-column: 1/13;
+    height: 780px;
+    grid-column: 1/21;
     grid-row: 1/10;
     background-color: #98D6DC; 
     z-index: -1;
