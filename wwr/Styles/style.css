@@ -22,9 +22,10 @@ main section {
 }
 #background {
     height: 725px;
-    grid-column: 1/11;
+    grid-column: 1/13;
     grid-row: 4/9;
     background-color: #98D6DC; 
+    z-index: -1;
 }
 body {
     margin: 0;
@@ -54,9 +55,6 @@ nav a:hover {
 .book:hover, .join:hover {
     background-color: #ffffff; 
     color: #072158;
-}
-#background {
-    background-color: #98D6DC; 
 }
 .msg {
     line-height: 1.5em;
@@ -194,6 +192,44 @@ nav {
     opacity: .6;
     transform: scale(1.1);
 }
+.grand-canyon, .desolation, .salmon-river{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+
+}
+.msg-activities {
+    line-height: 1.5em;
+    background-color: #F5E559;
+    padding: 35px; 
+    grid-column: 7/12;
+    grid-row: 4/7;
+    font-size: .85em;
+}
+.activity-img{
+    padding: 35px; 
+    grid-column: 1/5;
+    grid-row: 3/8;
+    z-index: 1;
+    max-width: 5fr;
+}
+
+.activity-title {
+    font-family: "Book Antiqua", "Lucida  Console", "Palatino";
+    font-size: 2em;
+    grid-column: 5/9;
+    grid-row: 1/2;
+    margin-top: 70px;
+}
+#background-a {
+    height: 725px;
+    grid-column: 1/13;
+    grid-row: 1/10;
+    background-color: #98D6DC; 
+    z-index: -1;
+    margin-top: 1em;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -235,4 +271,4 @@ nav {
         margin-top: 25px;
     }
 }
-            
+       
