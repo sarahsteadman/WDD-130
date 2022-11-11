@@ -229,7 +229,7 @@ nav {
     margin-top: 70px;
     color: #072158;
 }
-#background-a {
+.background-a {
     height: 780px;
     grid-column: 1/21;
     grid-row: 1/10;
