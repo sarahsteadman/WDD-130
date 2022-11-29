@@ -11,6 +11,7 @@ h2{
 p, a{
     font-size: 19px;
     text-indent: 60px;
+    font-family: georgia, Helvetica, sans-serif;
 }
 
 
@@ -28,6 +29,8 @@ nav{
     line-height: 3em;
     text-align: center;
     font-size: 1.2em;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 nav a{
         background-color: #612940;
@@ -35,15 +38,16 @@ nav a{
         text-decoration: none;
         font-size: 18px;
         padding: 15px 30px;
-        margin-top: 50px;
         border-radius: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
     }
 
 #hero-box{
     background-color: #023A37;
     height: 380px;
     display: grid;
-    grid-template-rows: 40px, 1fr;
+    margin-top: 40px;
 }
 #hero-img{
     display: block;
