@@ -5,9 +5,11 @@ h1, h2{
     font-family: "Brush Script MT"; 
     font-size: 100px;
     text-align: center;
+    color: #D5AFA5;
+    line-height: 1px;}
+h2{
     color: #023A37;
-    line-height: 1px;
-    text-shadow:  2px 2px 3px #6f7364;}
+}
 p, a{
     font-size: 19px;
     text-indent: 60px;
@@ -17,7 +19,7 @@ h3{
     font-family: "Brush Script MT"; 
     font-size: 65px;
     text-align: center;
-    color: #023A37;
+    color: #D5AFA5;
     line-height: 1px;
     padding-top: 15px;
     text-shadow:  2px 2px 3px #6f7364;
@@ -132,17 +134,22 @@ footer .social img {
 }
 
 #title-background{
-    background-color: #F5F0ED;
+    background-color: #023A37;
     height: 225px;
-    border-color: #023A37;
-    border-style: solid;
+    border-color: #F5F0ED;
+    border-style: dotted;
     border-radius: 15px;
-    border-width: 8px;
+    border-width: 6px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
 }
 #zz, #pothos, #spider{
     display: grid;
     grid-template-columns: repeat(20, 1fr);
     margin: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 #pothos{
     background-color: #023A37;
@@ -157,6 +164,10 @@ footer .social img {
     border-color: #F5F0ED;
     border-width: 20px;
     grid-column: 4;
+    border-radius: 5px;
+}
+#pothos-img{
+    grid-column: 18;
 }
 
 .rec-p {
@@ -174,4 +185,6 @@ footer .social img {
     height: 290px;
     margin-top: 20px;
 }
-
+#pothos-p{
+    grid-column: 2/16;
+}
