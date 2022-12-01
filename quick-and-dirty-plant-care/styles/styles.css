@@ -1,7 +1,7 @@
 body{
     background-color: #D5AFA5;
 }
-h2{
+h1, h2{
     font-family: "Brush Script MT"; 
     font-size: 100px;
     text-align: center;
@@ -13,7 +13,22 @@ p, a{
     text-indent: 60px;
     font-family: georgia, Helvetica, sans-serif;
 }
-
+h3{
+    font-family: "Brush Script MT"; 
+    font-size: 65px;
+    text-align: center;
+    color: #023A37;
+    line-height: 1px;
+    padding-top: 15px;
+}
+h4{
+    font-family: "Brush Script MT"; 
+    font-size: 50px;
+    text-align: center;
+    color: #612940;
+    line-height: 1px;
+    padding-top: 15px;
+}
 
 header{
     background-color: #D5AFA5;
@@ -21,19 +36,26 @@ header{
 .logo{
     display: block;
     margin: 0 auto;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-color: #023A37;
+    border-style: dotted;
+    border-radius: 15px;
+    border-width: 5px;
   }
 
 nav{
     line-height: 3em;
     text-align: center;
     font-size: 1.2em;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #612940;
+    border-radius: 60px;
 }
 nav a{
-        background-color: #612940;
         color:#F5F0ED; 
         text-decoration: none;
         font-size: 18px;
@@ -41,7 +63,12 @@ nav a{
         border-radius: 40px;
         margin-left: 40px;
         margin-right: 40px;
+        border-style: solid;
+        border-color: #F5F0ED;
     }
+nav a:hover{
+    background-color: #D5AFA5;
+}
 
 #hero-box{
     background-color: #023A37;
@@ -94,3 +121,41 @@ footer a, footer p{
 footer .social img {
     padding-top: 15px;
 }
+
+#title-background{
+    background-color: #F5F0ED;
+    height: 225px;
+    border-color: #023A37;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 8px;
+}
+#zz, #pothos, #spider{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    margin: 40px;
+}
+.rec-img{
+    height: 320px;
+    width: auto;
+    border-style: solid;
+    border-color: #F5F0ED;
+    border-width: 20px;
+    grid-column: 4;
+}
+
+.rec-p {
+    background-color: #F5F0ED;
+    padding: 10px; 
+    grid-column: 8/20;
+    text-align: left;
+    text-indent: 30px;
+    border-style: dotted;
+    border-color: #612940;
+    border-width: 5px;
+    border-radius: 10px;
+    height: 290px;
+    margin-top: 20px;
+
+}
+
