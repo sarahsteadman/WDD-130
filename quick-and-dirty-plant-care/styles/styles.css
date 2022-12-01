@@ -7,7 +7,7 @@ h1, h2{
     text-align: center;
     color: #023A37;
     line-height: 1px;
-}
+    text-shadow:  2px 2px 3px #6f7364;}
 p, a{
     font-size: 19px;
     text-indent: 60px;
@@ -20,6 +20,7 @@ h3{
     color: #023A37;
     line-height: 1px;
     padding-top: 15px;
+    text-shadow:  2px 2px 3px #6f7364;
 }
 h4{
     font-family: "Brush Script MT"; 
@@ -27,7 +28,8 @@ h4{
     text-align: center;
     color: #612940;
     line-height: 1px;
-    padding-top: 15px;
+    padding-top: 8px;
+    text-shadow:  1px 1px 2px #6f7364;
 }
 
 header{
@@ -94,6 +96,9 @@ nav a:hover{
     box-shadow: 5px 5px 10px #6f7364;
     margin-left: 20%;
     margin-right: 20%;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: #023A37;
 }
 
 .picture-row{
@@ -103,7 +108,11 @@ nav a:hover{
 #picture-row-left, #picture-row-middle, #picture-row-right{
     height: 270px;
     width: 300px;
-    padding: 40px;
+    margin: 40px;
+    border-style: solid;
+    border-color: #023A37;
+    border-width: 5px;
+    border-radius: 10px;
 }
 footer {
     background-color: #612940;
@@ -135,6 +144,12 @@ footer .social img {
     grid-template-columns: repeat(20, 1fr);
     margin: 40px;
 }
+#pothos{
+    background-color: #023A37;
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 .rec-img{
     height: 320px;
     width: auto;
@@ -147,6 +162,8 @@ footer .social img {
 .rec-p {
     background-color: #F5F0ED;
     padding: 10px; 
+    padding-left: 30px;
+    padding-right: 30px;
     grid-column: 8/20;
     text-align: left;
     text-indent: 30px;
@@ -156,6 +173,5 @@ footer .social img {
     border-radius: 10px;
     height: 290px;
     margin-top: 20px;
-
 }
 
